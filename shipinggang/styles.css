@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 980px;
+    width: 100%;
+    padding: 20px;
+}
+
+.logo {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.logo img {
+    width: 300px;
+    margin-bottom: -10px;
+}
+
+.logo p {
+    font-size: 24px;
+    color: #1c1e21;
+}
+
+.login-form {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 12px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 14px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-form button.create-account {
+    background-color: #42b72a;
+    margin-top: 10px;
+}
+
+.login-form a {
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin: 10px 0;
+}
+
+.login-form hr {
+    border: 0;
+    height: 1px;
+    background-color: #dadde1;
+    margin: 20px 0;
+}
